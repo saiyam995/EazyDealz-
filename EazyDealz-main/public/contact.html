@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EazyDealz</title>
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="icon" type="image/png" sizes="64x64" href="logo_64x64.png">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="header">
+      <img src="img/logo.png" alt="logo" width="100px"/>
+      <div>
+          <ul id="navbar">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a class="active" href="contact.html">Contact</a></li>
+              <li><a href="Cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+              <a href="#" id="close"><i class="far fa-times"></i></a>
+          </ul>
+      </div>
+      <div class="login">
+          <button class="login-btn" onclick="window.location.href='login.html';">Login</button>
+          <button class="signup-btn" onclick="window.location.href='signup.html';">Signup</button>
+      </div>
+      <div id="mobile">
+          <i id="bar" class="fas fa-bars"></i>
+      </div> 
+  </section>
+
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            Fill free to contact us.
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="img/location.png" class="icon" alt="" />
+              <p>Indus University, Rancharda, Ahmedabad</p>
+            </div>
+            <div class="information">
+              <img src="img/email.png" class="icon" alt="" />
+              <p>eazydealz@gmail.com</p>
+            </div>
+            <div class="information">
+              <img src="img/phone.png" class="icon" alt="" />
+              <p>9558990277</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with us :</p>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="https://api.web3forms.com/submit" method="POST" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <input type="hidden" name="access_key" value="37d8b9a7-62ab-40dc-a9c2-0ca42bfb5ec9">
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="section-p1">
+      <div class="col">
+          <img  class="logo" src="./img/logo.png" alt="" width="100px">
+          <h4>Contact</h4>
+          <p><strong>Address:</strong> Indus University, Rancharda, Ahmedabad</p>
+          <p><strong>Phone:</strong> +91 9558990277</p>
+          <p><strong>Timing:</strong> 9:00 - 5:00 Mon-Fri</p>
+          <div class="follow">
+              <h4>Follow Us</h4>
+              <div class="icon1">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-pinterest-p"></i>
+                  <i class="fab fa-youtube"></i>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <h4>About</h4>
+          <a href="about.html">About Us</a>
+            <a href="shop.html">Shop</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="term.html">Terms & Conditions</a>
+      </div>
+      <div class="col install">
+          <h4>Install App</h4>
+          <p>From App Store or Google Play</p>
+          <div class="row">
+              <img src="img/pngegg (1).png" alt="" width="200px">
+              <img src="img/pngegg (2).png" alt="" width="180px">
+          </div>
+      </div>
+  </footer>
+  <div class="copyright">
+      <p>&copy; 2024 Indus University, All Rights Reserved</p>
+  </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
